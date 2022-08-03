@@ -44,11 +44,12 @@ id	first_name*	last_name*	student_email	personal_email*	mobile_phone*	whatsapp*
 ```
 data/UNIT/unit_list.csv
 code	title*
-```
 
-```
 data/UNIT/{UNIT_CODE}/student_list.csv
 id	first_name*	last_name*	student_email	semester_year*	semester*
+
+data/UNIT/{UNIT_CODE}/email_list.csv
+full_name	student_email
 ```
 
 ### University
