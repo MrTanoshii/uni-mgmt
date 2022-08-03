@@ -56,7 +56,7 @@ data/UNIT/{UNIT_CODE}/student_list.csv
 id	first_name*	last_name*	student_email	semester_year*	semester*
 
 data/UNIT/{UNIT_CODE}/email_list.csv
-full_name	student_email
+full_name	student_email semester_year* semester*
 ```
 
 ### University
