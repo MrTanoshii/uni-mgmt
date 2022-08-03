@@ -25,3 +25,34 @@ python -m venv ./venv/
 python3 -m venv ./venv/
 source venv/bin/activate
 ```
+
+## Expected Data Formats
+
+The script will automatically scan the `/data/` folder for `.csv` files, populate the database and build a model.
+The expected default separator is `\t`.
+Fields marked with `*` are optional.
+
+### Student
+
+```
+data/STUDENT/student_list.csv
+id	first_name*	last_name*	student_email	personal_email*	mobile_phone*	whatsapp*
+```
+
+### Unit
+
+```
+data/UNIT/unit_list.csv
+code	title*
+```
+
+```
+data/UNIT/{UNIT_CODE}/student_list.csv
+id	first_name*	last_name*	student_email	semester_year*	semester*
+```
+
+### University
+
+```
+data/{UNIVERSITY_NAME}
+```
