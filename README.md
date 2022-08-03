@@ -32,6 +32,13 @@ The script will automatically scan the `/data/` folder for `.csv` files, populat
 The expected default separator is `\t`.
 Fields marked with `*` are optional.
 
+### Staff
+
+```
+data/STAFF/email_list.csv
+full_name staff_email semester_year* semester*
+```
+
 ### Student
 
 ```
